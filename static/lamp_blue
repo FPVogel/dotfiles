@@ -1,0 +1,3 @@
+!#/bin/sh
+echo -ne '{"id":1,"method":"set_hsv","params":[245, 100, 1700, 0]}\r\n' | nc -w1 192.168.178.102 55443
+echo -ne '{"id":1,"method":"set_hsv","params":[245, 100, 1700, 0]}\r\n' | nc -w1 192.168.178.103 55443
