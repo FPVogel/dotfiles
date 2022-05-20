@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="ftp://ftp-vogel@rw0b43.webhosting.systems/" added="2021-12-10T01:54:46.098679Z" modified="2021-12-10T01:54:46.098683Z" visited="2021-12-10T01:54:46.098680Z">
+    <title>/ on rw0b43.webhosting.systems</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2021-12-10T01:54:46.098681Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://debian@minecraft.dev.vogelhosting.de/" added="2021-12-23T17:41:17.267882Z" modified="2021-12-24T12:52:25.075159Z" visited="2021-12-24T12:52:25.075155Z">
+    <title>/ on minecraft.dev.vogelhosting.de</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2021-12-24T12:52:25.075157Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://root@stramm.stage.vogelhosting.de/" added="2022-02-06T23:15:40.011915Z" modified="2022-05-15T18:41:08.418667Z" visited="2022-05-15T18:41:08.418663Z">
+    <title>/ on stramm.stage.vogelhosting.de</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-05-15T18:41:08.418665Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="ftp://vogelhosting@ftp.vogelhosting.xyz/" added="2022-03-26T00:59:43.583860Z" modified="2022-05-11T20:01:54.668035Z" visited="2022-05-11T20:01:54.668033Z">
+    <title>/ on ftp.vogelhosting.xyz</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-05-11T20:01:54.668034Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://root@23.88.56.238/" added="2022-04-15T12:24:04.059487Z" modified="2022-04-15T12:24:04.059493Z" visited="2022-04-15T12:24:04.059489Z">
+    <title>/ on 23.88.56.238</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-04-15T12:24:04.059491Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://root@ns1.vogelhosting.xyz/" added="2022-05-11T20:02:40.847911Z" modified="2022-05-11T20:02:40.847918Z" visited="2022-05-11T20:02:40.847913Z">
+    <title>/ on ns1.vogelhosting.xyz</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-05-11T20:02:40.847915Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
