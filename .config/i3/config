@@ -52,6 +52,7 @@ bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym $mod+Shift+f+q kill -9
 
 # A more modern dmenu replacement is rofi:
 #bindsym $mod+d exec "rofi -show drun -drun-icon-theme Moka -show-icons"
@@ -60,10 +61,10 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+odiaeresis focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -72,10 +73,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+odiaeresis move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -84,7 +85,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -235,20 +236,28 @@ bindsym $mod+shift+o exec shutdown -r now
 
 #set screen layout
 
-exec_always xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x60 --rate 144 --rotate normal --output HDMI-A-0 --mode 1920x1080i --pos 0x60 --rotate normal --output DVI-I-0 --mode 1920x1200 --pos 3840x0 --rotate normal
+exec_always xrandr --output DisplayPort-0 --rate 143.98 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-A-0 --mode 1920x1080 --pos 3840x0 --rotate normal --output DisplayPort-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DisplayPort-2 --off
+
+
+
 
 exec_always export QT_STYLE_OVERRIDE = gtk2
 
 # set background
-exec_always feh --bg-scale /home/merlin/static/arch-back.png
+exec_always feh --bg-scale /home/merlin/static/arch-back-pkk.png
 
 # start nextcloud
 exec nextcloud
 
+# start spotifyd
+exec spotifyd
 
 # yeelight keybinds
 bindsym $mod+F1 exec /home/merlin/static/lamp_switch
 bindsym $mod+F2 exec /home/merlin/static/lamp_full
 bindsym $mod+F3 exec /home/merlin/static/lamp_half
 bindsym $mod+F4 exec /home/merlin/static/lamp_blue
-bindsym $mod+F5 exec /home/merlin/static/lamp_whi
+bindsym $mod+F5 exec /home/merlin/static/lamp_white
+
+# start ActivityWatch
+exec_always aw-qt
