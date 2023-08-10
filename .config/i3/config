@@ -249,9 +249,6 @@ exec_always feh --bg-scale /home/merlin/static/arch-back-pkk.png
 # start nextcloud
 exec nextcloud
 
-# start spotifyd
-exec spotifyd
-
 # yeelight keybinds
 bindsym $mod+F1 exec /home/merlin/static/lamp_switch
 bindsym $mod+F2 exec /home/merlin/static/lamp_full
